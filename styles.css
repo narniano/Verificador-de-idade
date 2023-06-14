@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #094164;
+  font: normal 15pt Arial;
+}
+
+header {
+  color: #e1e6e3;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e1e6e3;
+  color: #001624;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #00000070;
+  width: 500px;
+  padding: 35px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#ano {
+  gap: 20px;
+}
+
+#idade {
+  height: 30px;
+  width: 280px;
+}
+
+#sexo {
+  margin-right: 20px;
+}
+
+label {
+  margin-left: 5px;
+  margin-right: 20px;
+  font-size: 12pt;
+}
+
+#botao {
+  justify-content: center;
+}
+
+button {
+  background-color: #094164;
+  color: #e1e6e3;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px 10px #00000070;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+button:hover {
+  background-color: #135c8a;
+}
+
+#res {
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+footer {
+  color: #e1e6e3;
+  font-size: 12pt;
+  padding-top: 20px;
+  font-style: italic;
+  text-align: center;
+}
